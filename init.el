@@ -13,6 +13,11 @@
 ;; Set up the visible bell
 (setq visible-bell t)
 
+;; disable backups files
+(setq make-backup-files nil)
+(setq backup-inhibited t)
+(setq auto-save-default nil)
+
 (set-face-attribute 'default nil :font "Iosevka" :height runemacs/default-font-size)
 
 ;; Make ESC quit prompts
